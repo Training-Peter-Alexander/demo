@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="demo_neu">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/01-DelayedDelivery_Package.zip!/" />
+      <root url="jar://$PROJECT_DIR$/DelayedDelivery_Process .zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

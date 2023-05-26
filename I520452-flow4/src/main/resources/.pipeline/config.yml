@@ -1,0 +1,19 @@
+---
+general:
+  cpiApiServiceKeyCredentialsId: "dctests-cicd"
+  integrationFlowId: "I520452-flow4"
+stages:
+  uploadStage:
+    enabled: true
+  deployStage:
+    enabled: true
+  integrationTestStage:
+    enabled: false
+steps:
+  integrationArtifactUpload:
+    packageId: "CICD"
+    integrationFlowName: "I520452-flow4"
+  integrationArtifactTriggerIntegrationTest:
+    contentType: ""
+    messageBodyPath: ""
+    integrationFlowServiceKeyCredentialsId: ""
