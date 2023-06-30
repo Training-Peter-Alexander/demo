@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
 Bundle-SymbolicName: ConsumeEventsFromS4HANACloud; singleton:=true
 Bundle-Name: ConsumeEventsFromS4HANACloud
-Bundle-Version: 1.0.10
+Bundle-Version: 1.0.11
 Bundle-ManifestVersion: 2
 Origin-Bundle-SymbolicName: ConsumeEventsFromS4HANACloud
 SAP-NodeType: IFLMAP
