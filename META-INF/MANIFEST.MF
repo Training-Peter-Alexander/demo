@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
-Bundle-SymbolicName: ConsumeEventsFromS4HANACloudwitoutslack
-Bundle-Name: ConsumeEventsFromS4HANACloudwitoutslack
-Bundle-Version: 1.0.11
+Bundle-SymbolicName: ConsumeEventsFromS4HANACloud; singleton:=true
+Bundle-Name: ConsumeEventsFromS4HANACloud
+Bundle-Version: 1.0.10
 Bundle-ManifestVersion: 2
-Origin-Bundle-SymbolicName: ConsumeEventsFromS4HANACloudwitoutslack
+Origin-Bundle-SymbolicName: ConsumeEventsFromS4HANACloud
 SAP-NodeType: IFLMAP
 Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ap.esb.security,com.sap.it.op.agent.api,com.sap.it.op.agent.collector
@@ -32,7 +32,7 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ,com.sap.esb.camel.endpoint.configurator.api,com.sap.esb.camel.jdbc.i
  dempotency.reorg,javax.sql,org.apache.camel.processor.idempotent.jdbc
  ,org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
-Origin-Bundle-Name: ConsumeEventsFromS4HANACloudwitoutslack
+Origin-Bundle-Name: ConsumeEventsFromS4HANACloud
 SAP-BundleType: IntegrationFlow
 Import-Service: com.sap.esb.webservice.audit.log.AuditLogger,com.sap.e
  sb.security.KeyManagerFactory;multiple:=false,com.sap.esb.security.Tr
